@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto x-devs</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+    
+</head>
+
+<body>
+    <header class="cabecalho">
+        <h1>X-Devs</h1>
+    </header>
+    <main class="personagens-slider">
+        <button class="btn-seta btn-voltar" id="btn-voltar">
+            <img src="./src/imagens/seta.png" alt="seta para voltar a imagem">
+        </button>
+
+        <ul class="lista-personagem">
+            <li class="cartao selecionado fundo-1">
+                <h2 class="nome">Seu Clope</h2>
+
+                <img class="imagem-personagem" src="./src/imagens/seuclope.png" alt="Seu Clope">
+                
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Seu Clope é conhecido por sua firme convicção de que as novas linguagens de
+                        programação são apenas modismos passageiros e desnecessários, e ele se recusa a adotar qualquer
+                        uma delas, alegando que nada pode superar a robustez e a eficácia do COBOL para resolver
+                        problemas reais. Seu estilo de trabalho é metódico e preciso, e ele valoriza acima de tudo a
+                        estabilidade e a confiabilidade em seu código.</p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-2">
+                <div class="informacoes">
+                    <h2 class="nome">Vamplena</h2>
+                </div>
+
+                <div class="container-imagem">
+                    <img class="imagem-personagem" src="src/imagens/vamplena.png" alt="Vamplena" />
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Apesar de seu objetivo nobre de se tornar sênior, ela luta com o dilema ético de
+                        seu poder, pois teme tornar-se dependente da expertise alheia em vez de desenvolver a sua
+                        própria. Sua jornada é marcada por um intenso desejo de autodesenvolvimento e pela busca de um
+                        equilíbrio entre aprender com os outros e cultivar seu próprio talento genuíno.</p>
+                </div>
+            </li>
+        </ul>
+
+        <button class="btn-seta" id="btn-avancar">
+            <img src="./src/imagens/seta.png" alt="seta para avançar a imagem">
+        </button>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
